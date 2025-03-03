@@ -23,8 +23,8 @@ I want it to be able to
 - I am thinking 3 general purposes registers.
 - An instruction register will store the current 8 bit instruction.
 - A memory address register will act as the interface between the processor and memory.
-- Each register bit will have 3 states: 0 (low), 1 (high), and Hi-Z (disconnected). This will be achieved using a bus transceiver.
-- Each register will interact directly with the data bus.
+- Each register bit will have 3 states: 0 (low), 1 (high), and Hi-Z (disconnected) when it is writing to the bus. This will be achieved using a bus transceiver.
+- Each register, when reading from the bus, will interact directly with the data bus.
 - Output register that stores a value that determines what the SSD displays. i.e the SSD reads from the output register to display a number. I will probably use a 555 timer to cycle through each digit to enable it, thus being able to display 4 digits instead of only 1.
 - Potential result register that temporarily stores the result of ALU-run operation.
 
