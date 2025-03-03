@@ -20,7 +20,7 @@ I want it to be able to
 - I also want a manual clock functionality for debugging purposes. (I can use an SR latch to toggle modes)
 
 ## Registers
-- I am thinking 3 general purposes registers.
+- I am thinking 2 general purposes registers.
 - An instruction register will store the current 8 bit instruction.
 - A memory address register will act as the interface between the processor and memory.
 - Each register bit will have 3 states: 0 (low), 1 (high), and Hi-Z (disconnected) when it is writing to the bus. This will be achieved using a bus transceiver.
