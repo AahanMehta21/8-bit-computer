@@ -2,6 +2,18 @@
 This is my attempt at building an 8 bit computer from scratch using TTL. This repository will contain documentation, notes, schematics, and instruction sets.
 It will almost entirely be made out of the 74HC series of CMOS Logic Gate chips, except RAM.
 
+# Progress:
+- [ ] Computer Clock
+- [ ] 8 bit data bus
+- [x] General Purpose Register 1
+- [x] General Purpose Register 2
+- [ ] Output Register
+- [ ] Instruction Register
+- [ ] memory module
+- [ ] program counter
+- [ ] ALU
+- [ ] Computer logic
+
 # What do I want it to do?
 I want it to be able to
 - perform simple arithmetic operations of addition, subtraction, multiplication, and possibly division.
