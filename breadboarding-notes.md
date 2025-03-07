@@ -13,3 +13,8 @@ This file will contain my notes and things I would like to remind myself during 
 - I set OEB to constant high
 - I toggle OEA for enabling writing. (remember OEA is low for Hi-Z state, and high for writing).
 - Although the bus is bidirectional, I will only be going from B to A
+
+# What I've learnt, both about circuits and life
+- Voltage dividers are literally everywhere
+- Loading resistance is VERY important
+- Maybe stuff isn't broken. Maybe I just don't know how to use it just yet
