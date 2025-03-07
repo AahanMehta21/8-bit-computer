@@ -1,5 +1,5 @@
 # 8-bit-computer
-This is my attempt at building an 8 bit computer from scratch using TTL. This repository will contain documentation, notes, schematics, and instruction sets.
+This is my attempt at building an 8 bit computer from scratch using CMOS logic gates. This repository will contain documentation, notes, schematics, and instruction sets.
 It will almost entirely be made out of the 74HC series of CMOS Logic Gate chips, except RAM.
 
 # Progress:
