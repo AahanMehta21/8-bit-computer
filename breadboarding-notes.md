@@ -14,6 +14,15 @@ This file will contain my notes and things I would like to remind myself during 
 - I toggle OEA for enabling writing. (remember OEA is low for Hi-Z state, and high for writing).
 - Although the bus is bidirectional, I will only be going from B to A
 
+# Computer Clock
+## Manual mode clock (LM555 monostable mode)
+- Time constant ~ 0.517s
+- trigger is inverted (took me wayyyy too long to figure that out)
+
+## Automatic clock (LM555 astable mode)
+- duty cycle: ~50%
+- time period: ~ 1s
+
 # What I've learnt, both about circuits and life
 - Voltage dividers are literally everywhere
 - Loading resistance is VERY important
