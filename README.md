@@ -3,8 +3,8 @@ This is my attempt at building an 8 bit computer from scratch using CMOS logic g
 It will almost entirely be made out of the 74HC series of CMOS Logic Gate chips, except RAM.
 
 # Progress:
-- [ ] Computer Clock
-- [ ] 8 bit data bus
+- [x] Computer Clock
+- [x] 8 bit data bus
 - [x] General Purpose Register 1
 - [x] General Purpose Register 2
 - [ ] Output Register
