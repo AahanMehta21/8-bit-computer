@@ -8,7 +8,7 @@ It will almost entirely be made out of the 74HC series of CMOS Logic Gate chips,
 - [x] General Purpose Register 1
 - [x] General Purpose Register 2
 - [ ] Output Register
-- [ ] Instruction Register
+- [x] Instruction Register
 - [ ] memory module
 - [ ] program counter
 - [ ] ALU
