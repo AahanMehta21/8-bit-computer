@@ -23,6 +23,16 @@ This file will contain my notes and things I would like to remind myself during 
 - duty cycle: ~50%
 - time period: ~ 1s
 
+# Arithmetic Logical Unit
+## 74HC86 Quad XOR gate
+- It is used to invert the 2nd register's inputs for subtraction purposes. It is controlled by a subtraction enable line that also feeds into the Cin of the first 4 bit adder.
+- Subtraction line high = subtraction enabled, else addition enabled
+
+## 74HC283 4 bit adder with fast carry
+- There's no output enable so I'm using the 74HC243 quad bus transceiver for an output enable line that feeds into the bus
+- I will implement the flag registers later.
+- Multiplication will be implemented later (I think it's more of a software solution over a hardware one)
+
 # What I've learnt, both about circuits and life
 - Voltage dividers are literally everywhere
 - Loading resistance is VERY important
