@@ -38,7 +38,15 @@ This file will contain my notes and things I would like to remind myself during 
 - I set OEB to constant low
 - I toggle OEA for enabling writing. (remember OEA is high for Hi-Z state, and low for writing).
 
+## Connections
+### B to XOR gate:
+- B0: lower 9
+- B1: lower 12
+- B2: lower 4
+- B3: lower 1
+
 # What I've learnt, both about circuits and life
 - Voltage dividers are literally everywhere
 - Loading resistance is VERY important
+- Don't forget to power your chips (totally did not spend an hour figuring this out)
 - Maybe stuff isn't broken. Maybe I just don't know how to use it just yet
