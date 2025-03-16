@@ -11,12 +11,12 @@ It will almost entirely be made out of the 74HC series of CMOS Logic Gate chips,
 - [x] Instruction Register
 - [ ] memory module
 - [ ] program counter
-- [ ] ALU
+- [x] ALU
 - [ ] Computer logic
 
 # What do I want it to do?
 I want it to be able to
-- perform simple arithmetic operations of addition, subtraction, multiplication, and possibly division.
+- perform simple arithmetic operations of addition and subtraction. I will implement multiplication later.
 - Read from and write to general purpose registers (I am thinking 4 registers.
 - Read from and write to static memory (either matrix of latches or EEPROM) using a memory address register.
 - run programs and access each instruction from memory into an instruction register.
