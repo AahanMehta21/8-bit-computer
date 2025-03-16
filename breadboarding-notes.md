@@ -24,6 +24,9 @@ This file will contain my notes and things I would like to remind myself during 
 - time period: ~ 1s
 
 # Arithmetic Logical Unit
+> ### 📌 Note
+> **I have messed up and interchanged register 1 and 2 during wiring. Thus now subtraction results in Reg2 - Reg1, not Reg1 - Reg2. Bruh.**
+
 ## 74HC86 Quad XOR gate
 - It is used to invert the 2nd register's inputs for subtraction purposes. It is controlled by a subtraction enable line that also feeds into the Cin of the first 4 bit adder.
 - Subtraction line high = subtraction enabled, else addition enabled
