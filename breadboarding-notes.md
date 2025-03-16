@@ -24,7 +24,7 @@ This file will contain my notes and things I would like to remind myself during 
 - time period: ~ 1s
 
 # Arithmetic Logical Unit
-> ### 📌 Note
+> [!IMPORTANT]
 > **I have messed up and interchanged register 1 and 2 during wiring. Thus now subtraction results in Reg2 - Reg1, not Reg1 - Reg2. Bruh.**
 
 ## 74HC86 Quad XOR gate
