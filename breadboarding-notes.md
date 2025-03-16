@@ -33,6 +33,11 @@ This file will contain my notes and things I would like to remind myself during 
 - I will implement the flag registers later.
 - Multiplication will be implemented later (I think it's more of a software solution over a hardware one)
 
+## 74HC243 quad bus transceiver
+- I will only be going from A to B
+- I set OEB to constant low
+- I toggle OEA for enabling writing. (remember OEA is high for Hi-Z state, and low for writing).
+
 # What I've learnt, both about circuits and life
 - Voltage dividers are literally everywhere
 - Loading resistance is VERY important
